@@ -1,0 +1,45 @@
+.selector {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.button {
+  width: 36px;
+  height: 36px;
+  background-color: #1a1a1a;
+  border: none;
+  border-radius: 8px;
+  color: var(--color-text);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #333333;
+}
+
+.button:disabled {
+  color: #555555;
+  cursor: not-allowed;
+}
+
+.value {
+  min-width: 48px;
+  height: 36px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text);
+}

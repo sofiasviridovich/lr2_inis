@@ -1,0 +1,16 @@
+.app {
+  padding: 32px 64px 80px;
+}
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 32px;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 24px 20px 64px;
+  }
+}
